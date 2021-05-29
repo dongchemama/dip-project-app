@@ -5,7 +5,7 @@ from skimage.transform import resize
 import pickle
 from PIL import Image
 st.title("Image Classifier using Machine learning")
-st.subheader("upload your image")
+st.subheader("upload your image") 
 
 model = pickle.load(open('img_model.p','rb'))
 
